@@ -1,8 +1,11 @@
 import React from 'react'
+import NavigationBar from './NavigationBar'
 
 const ViewStudent = () => {
   return (
-    <div><h1>view student</h1></div>
+    <div>
+        <NavigationBar/>
+        <h1>view student</h1></div>
   )
 }
 
